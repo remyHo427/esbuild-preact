@@ -1,0 +1,21 @@
+{
+  "name": "esbuild-template",
+  "version": "1.0.0",
+  "description": "a preact template using esbuild as bundler",
+  "main": "src/index.tsx",
+  "author": "Remy Ho",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "serve": "node ./scripts/main.mjs serve",
+    "build": "node ./scripts/main.mjs build",
+    "stat": "node ./scripts/main.mjs stat",
+    "help": "node ./scripts/main.mjs help"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.12"
+  },
+  "dependencies": {
+    "preact": "^10.13.1"
+  }
+}
